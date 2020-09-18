@@ -1,9 +1,8 @@
-import visa
+import pyvisa
 
-# rm = visa.ResourceManager()
-# print("resources = ", rm.list_resources())
+rm = pyvisa.ResourceManager()
+print("resources = ", rm.list_resources())
 
-resources = visa.ResourceManager()
-probe = resources.open_resource("USB0::0xF4ED::0xEE3A::SDG10GA2162699::INSTR", query_delay=0.25)
-response = probe.query("*IDN?")
+inst = rm.open_resource("USB0::0xF4ED::0xEE3A::SDG10GA2162699::INSTR", query_delay=0.25)
+response = inst.query("*IDN?")
 print(response)
