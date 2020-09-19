@@ -65,6 +65,7 @@ I wanted to use python to create an arbitrary waveform and load it directly to t
 
 This is an example of how to list things you need to use the software and how to install them.
 * pyvisa
+* visa
 * numpy
 * matplotlib
 
@@ -76,6 +77,9 @@ This is an example of how to list things you need to use the software and how to
 git clone https://github.com/sully81/SDG1000_Python.git
 ```
 2. Install packages
+```sh
+pip install pyvisa visa numpy matplotlib
+```
 
 
 <!-- USAGE EXAMPLES -->
