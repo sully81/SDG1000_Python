@@ -49,7 +49,7 @@
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+* [Additional Information](#additional-information)
 
 
 
@@ -119,12 +119,11 @@ Project Link: [https://github.com/sully81/SDG1000_Python](https://github.com/sul
 
 
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+<!-- ADDITIONAL INFORMATION -->
+## Additional Information
 
-* []()
-* []()
-* []()
+* [Siglent SDG Series Programming Guide](https://siglentna.com/wp-content/uploads/dlm_uploads/2019/12/SDG_Programming-Guide_PG02-E04A.pdf)
+* [Control Siglent SDG1025 with python (bonus: add web access using any SBC)](https://www.stupid-projects.com/write-python-scripts-for-your-siglent-sdg1025/)
 
 
 
